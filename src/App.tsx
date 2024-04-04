@@ -1,5 +1,5 @@
 import "./global.css";
-import LoginPage from "./pages/Login";
+import LoginPage from "./pages/Login/Login";
 
 function App() {
   return (

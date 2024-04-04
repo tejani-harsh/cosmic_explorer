@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
+import Home from "../pages/Home/Home";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -7,7 +8,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/home",
-    element: <h1>Welcome to Cosmic Explorer</h1>,
+    element: <Home />,
   },
 ]);
 
