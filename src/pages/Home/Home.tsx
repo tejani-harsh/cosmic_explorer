@@ -14,6 +14,8 @@ export default function Home() {
 
   if (error) return "An error has occurred: " + error.message;
 
+  // NOTE : IF I AM NOT USING USEQUERY FROM TANSTACK THEN DATA CAN ALSO BE FETCHED USING BELLOW COMMENTED CODE,
+  //        AND I CAN ALSO CREATE A HOOK FOR FETCHING DATA
   // const [response, setResponse] = useState();
   // useEffect(() => {
   //   getApiDate();
